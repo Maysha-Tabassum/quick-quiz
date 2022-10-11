@@ -1,0 +1,29 @@
+/* #F1980F */
+/* favicon source code link  */
+/* <a target="_blank" href="https://icons8.com/icon/ABiusU6inXmU/source-code">Source Code</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */
+
+.header {
+    background-color:#1C2B35;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.img {
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.header a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: white;
+    font-size: 17px;
+}
+
+.header a:hover{
+    color: orange;
+}
