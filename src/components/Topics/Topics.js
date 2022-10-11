@@ -5,7 +5,7 @@ import Language from '../Language/Language';
 
 const Topics = () => {
     const languages = useLoaderData().data;
-    console.log(languages);
+    
     return (
         <div>
            <Banner></Banner>
