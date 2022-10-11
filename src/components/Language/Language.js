@@ -14,7 +14,7 @@ const Language = ({ language }) => {
 
             {/* card */}
             <div className='rounded-xl shadow-lg'>
-                <div className='p-3 flex flex-col  bg-slate-900 text-white'>
+                <div className='p-3 rounded-xl flex flex-col  bg-slate-900 text-white'>
                     <div className='language'>
                         <img src={logo} alt="" />
                     </div>
