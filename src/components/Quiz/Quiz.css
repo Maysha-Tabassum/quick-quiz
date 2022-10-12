@@ -1,0 +1,22 @@
+.quiz-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+   
+}
+.quiz-result-container{
+    position: sticky;
+    top: 0;
+    background-color: #252d4a;
+    width: 300px;
+    min-height: 250px;
+    height: min-content;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    color: white;
+    font-size: 22px;
+    justify-content: center;
+}
