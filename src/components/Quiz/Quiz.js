@@ -1,4 +1,4 @@
-import { convertToHsl } from 'daisyui/src/colors/functions';
+// import { convertToHsl } from 'daisyui/src/colors/functions';
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import QuizDetails from '../QuizDetails/QuizDetails';
@@ -7,6 +7,7 @@ import './Quiz.css'
 
 const Quiz = () => {
     const quizes = useLoaderData().data.questions;
+    console.log(quizes);
     const [correctAns, setCorrectAns] = useState([]);
     const handleAnswerOption = quiz => {
         console.log(quiz);
@@ -17,10 +18,12 @@ const Quiz = () => {
         else{
             const answer = [...correctAns, quiz];
             setCorrectAns(answer);
+            alert('Wrong Answer')
         }
     }
     return (
         <div className='quiz-container'>
+          
             <div className='quiz-details-container'>
                 {
                 quizes.map(quiz => <QuizDetails
